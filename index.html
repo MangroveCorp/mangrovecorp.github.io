@@ -276,7 +276,7 @@
                         </li>-->
                     </ul>
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; Mangrove Services, LLC 2015</p>
+                    <p class="text-muted" id="copyright">Copyright &copy; Mangrove Services, LLC 2015</p>
                 </div>
             </div>
         </div>
@@ -329,6 +329,14 @@ var scJsHost = (("https:" == document.location.protocol) ?
 document.write("<sc"+"ript type='text/javascript' src='" +
 scJsHost+
 "statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<script type="text/javascript">
+function setCopyright(){
+	var d = new Date();
+	var n = d.getFullYear();
+	var txt = 'Yowza &copy; Mangrove Services, LLC ' + n.toString();
+	document.getElementById('copyright').innerHTML = txt;
+}
 </script>
 <noscript><div class="statcounter"><a title="shopify site
 analytics" href="http://statcounter.com/shopify/"
