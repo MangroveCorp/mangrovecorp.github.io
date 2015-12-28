@@ -13,7 +13,7 @@ body {
 }
 
 body {
-    font-family: "Merriweather","Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Arimo","Merriweather","Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-vertical-center {
@@ -204,6 +204,7 @@ hr.small {
 
 .img-portfolio {
     margin: 0 auto;
+	cursor: pointer;
 }
 
 .img-portfolio:hover {
